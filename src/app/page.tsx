@@ -144,7 +144,7 @@ export default function Home() {
           <div className="bg-black bg-opacity-30 p-4 rounded-3xl backdrop-blur-sm border border-[#433d8b] hover:border-[#c8acd6] transition-colors duration-300 lg:mb-10">
   <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">My Tech Stack</h2>
   <div> 
-    <h2 className="text-white text-sm mb-4"> I use a variety of tools to cater to my interdisciplinary interests</h2>
+    <h2 className="text-white text-sm mb-4"> I use a variety of tools to cater to my interdisciplinary interests.</h2>
   </div>
   <div className="flex flex-wrap items-center gap-3">
     {techIcons.map(({ Icon, name }, index) => (
