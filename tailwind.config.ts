@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       animation: {
         'gradient-shift': 'gradient-shift 8s ease infinite',
-        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'border-flow': 'border-flow 3s linear infinite',
       },
       keyframes: {

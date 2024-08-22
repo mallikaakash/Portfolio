@@ -72,7 +72,8 @@ export default function Header() {
   };
 
   return (
-    <div className=" bg-black bg-opacity-50 p-4 md:p-6 h-20 rounded-3xl backdrop-blur-sm hover:border-[#c8acd6] transition-colors duration-300 w-full fixed top-0 left-0 right-0 z-50">
+    
+    <div className=" bg-black bg-opacity-50 p-4 md:py-6 h-20 rounded-3xl backdrop-blur-sm hover:border-[#c8acd6] transition-colors duration-300 w-full fixed top-0 left-0 right-0 z-50">
       <div className="flex flex-colitems-center justify-between h-full">
         <div className="flex flex-row items-center justify-center">
         <div className='bg-gray-400 rounded h-12 w-12 mr-2'> </div>

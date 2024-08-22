@@ -179,7 +179,7 @@ const ProjectCarousel: React.FC = () => {
   return (
     <div className="w-full flex items-center justify-center h-full">
       <div className="w-full  mx-auto relative h-full px-0 sm:px-12"> {/* Added horizontal padding */}
-        <div className="bg-black bg-opacity-30 rounded-3xl h-full overflow-hidden backdrop-blur-sm transition-all duration-300 p-0 pl-12 sm:p-6 ">
+        <div className="bg-black bg-opacity-30 rounded-3xl h-full overflow-hidden backdrop-blur-sm transition-all duration-300 p-4 pl-12 sm:p-6 ">
           <div className="flex flex-row items-center justify-between space-x-4"> {/* Added space between items */}
             <h3 className="text-sm md:text-xl font-semibold text-cyan-300 truncate flex-1">{project.title}</h3> {/* Added truncate and flex-1 */}
             {/* <Link

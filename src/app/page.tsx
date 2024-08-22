@@ -73,7 +73,7 @@ const skills = [
 export default function Home() {
   
   return (
-    <div className="flex flex-col items-center w-full min-h-screen bg-gradient-to-br from-black via-[#013939] to-[#003232] animate-gradient-shift">
+    <div className="flex flex-col items-center w-full min-h-screen bg-gradient-to-br from-black via-[#043636] to-[#015e5e] animate-gradient-shift overflow-x-hidden">
     <TopBar />
       
       <main className="flex flex-col items-center w-full mt-24 px-4">
@@ -144,13 +144,13 @@ export default function Home() {
           <div className="bg-black bg-opacity-30 p-4 rounded-3xl backdrop-blur-sm border border-[#433d8b] hover:border-[#c8acd6] transition-colors duration-300 lg:mb-10">
   <h2 className="text-xl md:text-2xl font-semibold text-white mb-4">My Tech Stack</h2>
   <div> 
-    <h2 className="text-white text-sm mb-4"> I use a variety of tools to cater to my interdisciplinary interests.</h2>
+    <h2 className="text-white text-sm mb-4"> I use a variety of tools that cater to my interdisciplinary interests.  The primary ones for dev/machine learning projects are : </h2>
   </div>
-  <div className="flex flex-wrap items-center gap-3">
+  <div className="flex flex-wrap items-center justify-center gap-3">
     {techIcons.map(({ Icon, name }, index) => (
       <React.Fragment key={name}>
         {index > 0 && <span className="text-cyan-500/50">•</span>}
-        <div className="group relative bg-gradient-to-br from-cyan-500/20 to-cyan-500/10 
+        <div className="group relative bg-gradient-to-br from-cyan-500/20 to-cyan-500/10 flex items-center justify-center
                         p-1 rounded-full backdrop-filter backdrop-blur-sm
                         border border-cyan-500/30 hover:border-cyan-300/50 
                         transition-all duration-300 hover:scale-110">
@@ -164,6 +164,9 @@ export default function Home() {
       </React.Fragment>
     ))}
   </div>
+  <h2  className="text-white text-sm mt-4">
+    Along with these I have also worked with Verilog, C, C++, and Assembly.
+  </h2>
   {/* <div>
     <div className="flex flex-wrap items-center gap-2 py-4">
       {skills.map((skill, index) => (
