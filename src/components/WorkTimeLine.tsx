@@ -23,7 +23,7 @@ const experiences: WorkExperience[] = [
     position: "SDE Intern",
     duration: "May 2024 - July 2024",
     description: "Delivering solutions as part of the Process Transformation and Intelligent Automation team to automate manual processes by leveraging various RPA tools.",
-    icon: FaDna
+    icon: FaLaptopCode
   },
   {
     company: "IIT Delhi",
@@ -37,7 +37,7 @@ const experiences: WorkExperience[] = [
     position: "Web Developer",
     duration: "Nov 2023 - Dec 2023",
     description: " Front-End Developer contributing in designing and coding of the official website of the IEEE ASSETS conference.",
-    icon: FaMicroscope
+    icon: FaLaptopCode
   },
   // Add more experiences as needed
 ];
