@@ -86,13 +86,14 @@ export default function Home() {
           <div className="bg-black bg-opacity-30 p-4 rounded-3xl backdrop-blur-sm border border-[#433d8b] hover:border-[#c8acd6] transition-colors duration-300 lg:col-span-2 md:col-span-2 sm:col-span-1 ">
     <div className="flex flex-row items-center justify-between mb-4">
     <h2 className="text-xl md:text-3xl font-semibold text-[#89d6eb]">Hello Muggles!</h2>
+    <Link href="/Aakash_CV.pdf" target="_blank">
     <span className="text-white hover:text-white transition-all duration-300 text-sm flex flex-row 
      transform hover:scale-105 w-fit justify-center items-center
      bg-gradient-to-br from-cyan/30 to-cyan/10
      bg-opacity-70 hover:bg-opacity-30 backdrop-filter backdrop-blur-md
      p-2 rounded-full 
      shadow-lg hover:shadow-xl
-     border border-transparent hover:border-cyan-300/40"> Grab my CV<span className="text-white pl-2 hidden md:block"> <Link href="/Aakash_CV.pdf" target="_blank"><MdOutlineFileDownload size={20} /></Link></span></span>
+     border border-transparent hover:border-cyan-300/40"> Grab my CV<span className="text-white pl-2 hidden md:block"> <MdOutlineFileDownload size={20} /></span></span></Link>
     </div>
     <p className="text-white text-sm">
     I am a passionate researcher, aspiring developer, and contemplative writer from India. My primary ambition is to delve deep into the theoretical foundations of AI and Computer Vision while also exploring the realm of power-efficient AI.  <br></br><br></br>
