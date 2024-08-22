@@ -97,10 +97,10 @@ export default function Home() {
     </div>
     <p className="text-white text-sm">
     I am a passionate researcher, aspiring developer, and contemplative writer from India. My primary ambition is to delve deep into the theoretical foundations of AI and Computer Vision while also exploring the realm of power-efficient AI.  <br></br><br></br>
-    My interests span a broad spectrum, including machine learning, mathematics, astronomy, economics, literature, anime, manga, and manhwa. I thoroughly enjoy a insightful conversation on any topic... be it on the narrative depth of <span className="text-cyan-300 text-pretty">Attack on Titan</span> or on the philosophical underpinnings of the universe.<br></br><br></br>
+    My interests span a broad spectrum, including machine learning, mathematics, astronomy, economics, literature, anime, manga, and manhwa. I thoroughly enjoy an insightful conversation on any topic... be it on the narrative depth of <span className="text-cyan-300 text-pretty">Attack on Titan</span> or on the philosophical underpinnings of the universe or practically anything else.<br></br><br></br>
               Currently I am pursuing my B.Tech in Electronics and Electronics Engineering from National Institute of Technology Karnataka, Surathkal and I have interned at muiltiple organizations including IISC, Wells Fargo, IIT Delhi among others. With a knack for interdisciplinary projects, I enjoy solving puzzles that address
               real-world scenarios and needs. <br></br> <br></br>
-              At the moment I am learning more about Web3 and hoping to contribute to the space.
+              At the moment I am learning more about Web3, Ethereum and hoping to contribute to the space.
             </p>
             
           </div>
