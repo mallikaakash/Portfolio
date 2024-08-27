@@ -1,4 +1,4 @@
-This is my Portfolio website created using nextjs template and hosted on vercel !!
+This is my Portfolio website created using nextjs and tailwind css and hosted on vercel !!!
 
-Take a look !!!
+I hope you have fun reading through it !!!
 
