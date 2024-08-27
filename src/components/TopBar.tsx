@@ -55,8 +55,9 @@
 //   );
 // }
 'use client'
-
+import Image from 'next/image';
 import Link from 'next/link';
+import profilePic from '../../public/pfp.jpeg';
 import { useState } from 'react';
 import { BsTwitterX } from 'react-icons/bs';
 import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
@@ -76,7 +77,9 @@ export default function Header() {
     <div className=" bg-black bg-opacity-50 p-4 md:py-6 h-20 rounded-3xl backdrop-blur-sm hover:border-[#c8acd6] transition-colors duration-300 w-full fixed top-0 left-0 right-0 z-50">
       <div className="flex flex-colitems-center justify-between h-full">
         <div className="flex flex-row items-center justify-center">
-        <div className='bg-gray-400 rounded h-12 w-12 mr-2'> </div>
+        <div className='bg-gray-400 rounded h-12 w-12 mr-2'>
+          <Image src={profilePic} alt="logo" width={48} height={48}  className="object-cover w-full h-full object-top rounded " />
+           </div>
         <h2 className="text-xl sm:text-2xl font-semibold text-[#c8acd6]">
           {/* <span className="sm:hidden">AM</span> */}
           <div className="flex-row inline">
