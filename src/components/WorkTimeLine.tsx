@@ -15,7 +15,7 @@ const experiences: WorkExperience[] = [
     company: "IISC",
     position: "Research Intern",
     duration: "Aug 2024 - Present",
-    description: "Working in the Machine Learning team at NMCAD lab of IISC as part of Project Urdhyuth to design eVTOL aircrafts.",
+    description: "Part of the ML team @NMCAD lab,IISC as part of Project Urdhyuth to design eVTOL aircrafts.",
     icon: FaAtom
   },
   {
@@ -45,6 +45,7 @@ const experiences: WorkExperience[] = [
 const WorkTimeline: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
+
   return (
     <div className="w-full py-8 relative h-fit">
       <div className="h-1 w-full bg-gradient-to-r from-cyan-500 to-purple-500 absolute top-12 flex justify-center"></div>
@@ -53,7 +54,10 @@ const WorkTimeline: React.FC = () => {
           <div key={index} className="flex flex-col items-center relative">
             <div 
               className="w-8 h-8 rounded-full bg-gradient-to-br flex justify-center items-center from-cyan-500 to-purple-500 p-0.5 mb-2 cursor-pointer z-10"
-              onMouseEnter={() => setActiveIndex(index)}
+              onMouseEnter={() => {
+                setActiveIndex(index);
+              }
+              }
               onMouseLeave={() => setActiveIndex(null)}
             >
               <div className="w-full h-full rounded-full bg-black flex items-center justify-center">
