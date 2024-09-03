@@ -185,7 +185,7 @@ export default function Home() {
 
 
 <div className="bg-black bg-opacity-30 p-4 rounded-3xl backdrop-blur-sm border border-[#433d8b] hover:border-[#c8acd6] transition-colors duration-300 mb-10 md:col-span-2 ">
-  <h2 className="text-xl md:text-2xl  font-semibold text-[#89d6eb] pb-0">Work Experience</h2>
+  <h2 className="text-xl md:text-2xl  font-semibold text-[#89d6eb] pb-0">Work Experience <span>(hover to know more)</span></h2>
   <div className="flex items-center justify-center  h-3/4 py-12 px-4 md:px-8">
   <WorkTimeline />
   </div>
