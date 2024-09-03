@@ -130,19 +130,19 @@ const projects: Project[] = [
     {
         title: "PaliGemma",
         description: " Implemented Paligemma- a Multimodal Vision Language model and the  Sigmoid Loss for Language Image Pre-Training (SIGLip) from scratch using Python and PyTorch.",
-        link: "https://project2.com",
+        link: "https://github.com/mallikaakash",
         type: "Machine Learning"
       },
   {
     title: " QGAPHEnsemble",
     description: "A novel architecture combining Hybrid QLSTM Network Ensemble via Adaptive Weighting for Short Term Weather Forecasting achieving SOTA results: MAPE BO-QEnsemble-0.91 & GenHybQLSTM-0.92.",
-    link: "https://project1.com",
+    link: "../../public/QEnsemble.pdf",
     type: "Machine Learning"
   },
   {
     title: "DPViz",
     description: "A web based visualizer in order to learn andunderstand various dynamic programming algorithms by means of a visual aid.",
-    link: "https://project2.com",
+    link: "https://dpviz.vercel.app/",
     type: "Web Dev"
   },
   
@@ -182,7 +182,7 @@ const ProjectCarousel: React.FC = () => {
         <div className="bg-black bg-opacity-30 rounded-3xl h-full overflow-hidden backdrop-blur-sm transition-all duration-300 p-4 pl-12 sm:p-6 ">
           <div className="flex flex-row items-center justify-between space-x-4"> {/* Added space between items */}
             <h3 className="text-sm md:text-xl font-semibold text-cyan-300 truncate flex-1">{project.title}</h3> {/* Added truncate and flex-1 */}
-            {/* <Link
+            <Link
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer" 
@@ -193,7 +193,7 @@ const ProjectCarousel: React.FC = () => {
                          shadow-lg hover:shadow-xl hover:scale-105"
             >
               View 
-            </Link> */}
+            </Link>
           </div>
           <p className="text-purple-300 text-xs mb-4">{project.type}</p>
           <p className="text-white text-sm">{project.description}</p>
